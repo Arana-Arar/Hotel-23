@@ -4,15 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Veinti3</title>
     <!-- Font Awesome Icons -->
-    <link
-      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/51731cd05a.js" crossorigin="anonymous"></script>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -24,8 +21,10 @@
   
   <body>
     
-    
+    <!--Cabecera del cuerpo del documento-->
     <header>
+      
+      <!--Menu de navegacion Responsivo-->
       <nav>
         <a href="#home" id="logo"></a>
         <i class="fas fa-bars" id="ham-menu"></i>
@@ -39,11 +38,12 @@
       </nav>
     </header>
  
-  
+    <!--Contenido de imagenes Responsivo de la seccion y articulo-->  
     <section class="container">
+     
+      <!--Slider de Imagenes-->
       <article id="article">
-        <div class="image-container">
-            
+        <div class="image-container">            
             <img src="Cama Queen.jpg" id="content1" class="active">            
             <img src="Cocina.jpg" id="content2">
             <img src="Cafetera.jpg" id="content3">
@@ -53,6 +53,8 @@
             <img src="comodidad.jpeg" id="content7">
             <img src="sala.jpg" id="content8">
         </div>
+        
+        <!--Controlador de imagenes-->
         <div class="dot-container">
             <button onclick = "dot(1)"></button>
             <button onclick = "dot(2)"></button>
@@ -63,6 +65,8 @@
             <button onclick = "dot(7)"></button>
             <button onclick = "dot(8)"></button>
         </div>
+
+        <!--Pestañas de siguiente o atras-->
         <button id="prev" onclick="prev()"> &lt; </button>
         <button id="next" onclick="next()"> &gt; </button>
       </article>
@@ -72,20 +76,27 @@
     
     <footer class="pie-pagina">
       <div class="grupo-1">
-          <div class="box">
+        <!--Logo de la empresa-->  
+        <div class="box">
               <figure>
                   <a href="#">
                       <img src="logo.jpeg" alt="Hotel Veinti3">
                   </a>
               </figure>
           </div>
+
+          <!--Primer cajon de la izquierda del footer-->
           <div class="box">
               <h2>Sobre Nosotros:</h2>
               <p>Contamos con Confortables Habitaciones, para pasar una estancia agradable</p>
               <p>Cocina para que te cocines y una cafetera, para disfrutar de un deliocioso cafe.</p>
           </div>
+
+          <!--Segundo cajon a la derecha del footer-->
           <div class="box">
               <h2>Siguenos en:</h2>
+              
+              <!--Iconos de Redes Sociales-->
               <div class="red-social">
                   <a href="https://www.facebook.com/HotelVeinti3" class="fa fa-facebook"></a>
                   <a href="https://api.whatsapp.com/send?phone=9622570787&text=Hola, Nececito mas informacion!" class="fa fa-whatsapp"></a>
@@ -94,6 +105,8 @@
               </div>
           </div>
       </div>
+
+      <!--Derechos de autor-->
       <div class="grupo-2">
           <small>&copy; 2023 <b>Alan Rodriguez AR</b> - Todos los Derechos Reservados.</small>
       </div>
