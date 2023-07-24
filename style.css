@@ -102,7 +102,7 @@ body{height: 1200px;
     }
   
 .container{background-color: #0d2033;;
-           width: 50%;
+           width: 80%;
            min-width: 520px;
            position: relative;
            transform: translate(-50%,-50%);
