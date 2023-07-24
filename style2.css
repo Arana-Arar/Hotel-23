@@ -91,8 +91,8 @@
          box-sizing: border-box;
          }
  
- body{height: 800px;
-      min-height: 180vh;
+ body{height: 1000px;
+      min-height: 100vh;
       align-content: center;
       background-image: url(fondo1.jpg);
       background-repeat: no-repeat;
@@ -209,7 +209,7 @@
  
  .pie-pagina{width: 100%;
              background-color: #0a141d;
-             margin-top: 100%;
+             margin-bottom: 100%;
              }
  
  .pie-pagina .grupo-1{width: 100%;
@@ -278,15 +278,21 @@
 .parrafo{font-size: 12px;
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
          text-align: justify;
+         padding-top: 40px;
+         padding-left: 40px;
+         padding-right: 40px;
+         padding-bottom: 40px;
          }
 
 .parrafo1{font-size: 12px;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          text-align: justify;}
+          text-align: justify;
+          padding: 30px 30px 30px 30px;}
 
 .parrafo2{font-size: 12px;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          text-align: justify;}
+          text-align: justify;
+          padding: 30px 30px 30px 30px;}
 
 #parrafo3{font-size: 12px;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

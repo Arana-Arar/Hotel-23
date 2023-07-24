@@ -91,7 +91,7 @@
          box-sizing: border-box;
          }
  
- body{height: 950px;
+ body{height: 900px;
       min-height: 100vh;
       align-content: center;
       margin: 0 auto;
@@ -209,7 +209,7 @@
  
  .pie-pagina{width: 100%;
              background-color: #0a141d;
-             margin-top: 0 auto;
+             margin-bottom: 100%;
              }
  
  .pie-pagina .grupo-1{width: 100%;
