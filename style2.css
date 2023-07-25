@@ -91,7 +91,7 @@
          box-sizing: border-box;
          }
  
- body{height: 1200px;
+ body{height: 1250px;
       min-height: 100vh;
       align-content: center;
       background-image: url(fondo1.jpg);
@@ -102,15 +102,15 @@
      }
    
  .container{background-color: #ffffff;
-            width: 40%;
+            width: 35%;
             min-width: 600px;
             position: relative;
             transform: translate(-50%,-50%);
             left: 50%;
             top: 50%;
             border-radius: 10px;
-            padding: 5px;
-            height: 1050px;
+            padding: 10px;
+            height: 1100px;
             box-shadow: 0 15px 30px rgba(0,0,0,0.3);
             background-color: #112438;
             color: #efefef;
@@ -263,7 +263,7 @@
                                     grid-gap:30px;
                                     padding: 35px 0px;}}
  
- #articulo{height: 850px; width: 1000px;}
+ #articulo{height: 850px; width: 1000px;padding: 40px 40px 40px 40px;}
  
  .divtextoimg{float: left; 
               width: 100%; 
@@ -279,10 +279,6 @@
 .parrafo{font-size: 12px;
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
          text-align: justify;
-         padding-top: 40px;
-         padding-left: 40px;
-         padding-right: 40px;
-         padding-bottom: 40px;
          }
 
 .parrafo1{font-size: 12px;
@@ -308,25 +304,23 @@
               height: auto;
               margin: 80px auto;
               border-radius: 10px;  
-              padding-top: 10px;
-                        padding-bottom: 20px;  
-                      background-color: #fbfbfb; 
-                      padding-left: 30px; 
-                    }
+              padding-top: 20px;
+              padding-bottom: 20px;  
+              background-color: #fbfbfb; 
+              padding-left: 30px; 
+              }
                     
-                    
-                    input{
-                        background-color: #fbfbfb; 
-                        width: 408px; 
-                        height: 40px; 
-                        border-radius: 5px;  
-                        border-style: solid; 
-                        border-width: 1px; 
-                        border-color: #ab4493; 
-                        margin-top: 10px;  
-                        padding-left: 10px;
-                      margin-bottom: 20px; 
-                    }
+input{background-color: #fbfbfb; 
+      width: 408px; 
+      height: 40px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #ab4493; 
+      margin-top: 10px;  
+      padding-left: 10px;
+      margin-bottom: 20px; 
+      }
                     
                     
                     textarea{

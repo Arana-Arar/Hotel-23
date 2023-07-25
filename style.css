@@ -91,7 +91,7 @@ nav ul {top: 65.18px;height: calc(100vh - 65.18px);}}
         box-sizing: border-box;
         }
 
-body{height: 1100px;
+body{height:700px;
      min-height: 80vh;
      align-content: center;
      margin: 0 auto;
@@ -102,7 +102,7 @@ body{height: 1100px;
     }
   
 .container{background-color: #0d2033;;
-           width: 80%;
+           width: 50%;
            min-width: 520px;
            position: relative;
            transform: translate(-50%,-50%);
@@ -207,7 +207,6 @@ button{outline: none;
             background-color: #0a141d;
             /*margin-top: 500px;*/
             margin-bottom: 100%;
-
             }
 
 .pie-pagina .grupo-1{width: 100%;
