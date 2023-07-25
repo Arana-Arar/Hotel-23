@@ -63,14 +63,14 @@ nav ul.active {left: 0;}
             top: 73.6px;
             height: calc(100vh - 73.6px);
             display:flex;
-            flex-direction:none;
+            flex-direction:column-reverse;
             align-items: center;
             align-content: center;
             justify-content: space-around;
             transition: 1s;
             gap: 0;
             line-height: 70px;
-            z-index: 0;
+            z-index: 995;
             text-align: center;
             opacity: 60%;
             width: 1200px;} 
