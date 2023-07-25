@@ -91,14 +91,14 @@ nav ul {top: 65.18px;height: calc(100vh - 65.18px);}}
         box-sizing: border-box;
         }
 
-body{height: 950px;
-     /*background: linear-gradient(135deg,#e9a15d, #d161ff);*/
-     min-height: 100vh;
+body{height: 1100px;
+     min-height: 80vh;
      align-content: center;
      margin: 0 auto;
      background-image: url(fondo1.jpg);
      background-repeat: no-repeat;
      background-size: cover;
+     width: 100%;
     }
   
 .container{background-color: #0d2033;;
@@ -108,13 +108,13 @@ body{height: 950px;
            transform: translate(-50%,-50%);
            left: 50%;
            top: 50%;
-           border-radius: 5px;
+           border-radius: 10px;
            padding: 30px;
            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
            /*background: linear-gradient(135deg,#e9a15d, #d161ff);*/
            }
 
-.image-container{position: relative;
+.image-container{position:relative;
                  width: 100%;}
   
 img{position: relative;
@@ -203,7 +203,7 @@ button{outline: none;
 
   /*:::::Pie de Pagina*/
 
-.pie-pagina{width: 100%;
+.pie-pagina{width: 125%;
             background-color: #0a141d;
             /*margin-top: 500px;*/
             margin-bottom: 100%;

@@ -91,25 +91,26 @@
          box-sizing: border-box;
          }
  
- body{height: 1000px;
+ body{height: 1200px;
       min-height: 100vh;
       align-content: center;
       background-image: url(fondo1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       margin:0 auto;
+      width: 100%;
      }
    
  .container{background-color: #ffffff;
-            width: 70%;
+            width: 40%;
             min-width: 600px;
             position: relative;
             transform: translate(-50%,-50%);
             left: 50%;
             top: 50%;
-            border-radius: 5px;
-            padding: 20px;
-            height: 1110px;
+            border-radius: 10px;
+            padding: 5px;
+            height: 1050px;
             box-shadow: 0 15px 30px rgba(0,0,0,0.3);
             background-color: #112438;
             color: #efefef;
@@ -207,7 +208,7 @@
  
    /*:::::Pie de Pagina*/
  
- .pie-pagina{width: 100%;
+ .pie-pagina{width: 125%;
              background-color: #0a141d;
              margin-bottom: 100%;
              }
